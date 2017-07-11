@@ -18,6 +18,6 @@ app.get('*', routes.not_found);
 // app.listen('3000', function() {
 // 	console.log('Application running on localhost:3000');
 // });
-app.listen(process.env.PORT || 3000, function() {
+app.listen(process.env.PORT || 80, function() {
 	console.log('Application running on localhost:3000');
 });
